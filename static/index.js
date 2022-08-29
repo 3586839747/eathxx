@@ -680,8 +680,14 @@ function click(index) {
         target: document.getElementById(id),
     };
 
-    gameTapEvent(fakeEvent)
+    gameTapEvent(fakeEvent);
 }
+
+
+    const clickBeforeStyle = $('<style></style>');
+    const clickAfterStyle = $('<style></style>');
+    clickBeforeStyle.appendTo($(document.head));
+    clickAfterStyle.appendTo($(document.head));
 
 function foreach() {
     var strCookie = document.cookie;
