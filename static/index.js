@@ -450,11 +450,11 @@ function backBtn() {
 function shareText(score) {
 
     deviation_time = (date2.getTime() - _date1.getTime())
-    if (score <= 2.5 * __Time) return '加油！我相信您可以的！';
-    if (score <= 5 * __Time) return '^_^ 加把劲，底力大王就是您！';
-    if (score <= 7.5 * __Time) return '您！';
-    if (score <= 10 * __Time) return '太 您 了！';
-    return '您是外星人嘛？';
+    if (score <= 2.5 * __Time) return '加油！不要被黄小旭看不起！';
+    if (score <= 5 * __Time) return '^_^ 加把劲，黄小旭要对您刮目相待了！';
+    if (score <= 7.5 * __Time) return '我超！黄小旭给您跪了！';
+    if (score <= 10 * __Time) return '黄小旭要撑不住啦！';
+    return '黄小旭已经五体投地了！';
 }
 
 function toStr(obj) {
